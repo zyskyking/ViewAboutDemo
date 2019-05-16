@@ -15,4 +15,10 @@ public class BaseUserDialongFragment extends DialogFragment {
         View view = inflater.inflate(R.layout.fragment_base_user_dialog, container);
         return view;
     }
+    /**
+     * 我也把互粉三季度佛很骄傲搜配电房骄傲搜到胡椒粉撒谎的发生的浪费哈四等奖  史蒂芬霍金那口水都发生
+     * sad发咯撒打纳斯卡鸡蛋分
+     * 撒地方拉设计费凯撒大帝
+     * 阿斯顿发生了；品房的简欧is为
+     */
 }
