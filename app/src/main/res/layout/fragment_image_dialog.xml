@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/dialogfragment_image_iv"
+        android:layout_centerInParent="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <View
+        android:id="@+id/line"
+        android:layout_below="@id/dialogfragment_image_iv"
+        android:layout_width="match_parent"
+        android:background="@color/colorAccent"
+        android:layout_height="1dp"/>
+
+   <LinearLayout
+       android:layout_below="@id/line"
+       android:orientation="horizontal"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content">
+
+       <Button
+           android:text="确定"
+           android:layout_weight="1"
+           android:layout_width="0dp"
+           android:layout_height="wrap_content" />
+
+       <view
+           android:layout_width="1dp"
+           android:layout_height="match_parent"/>
+
+       <Button
+           android:text="取消"
+           android:layout_weight="1"
+           android:layout_width="0dp"
+           android:layout_height="wrap_content" />
+   </LinearLayout>
+
+</RelativeLayout>
